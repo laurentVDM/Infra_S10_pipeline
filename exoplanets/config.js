@@ -1,9 +1,5 @@
-const PgUser = 'postgres';
-const PgHost = 'localhost';
-const PgDb = 'exoplanets';
-const PgPassword = 'ipl';
-const PgPort = 5432;
+const Pg = 'postgres://mlqlchcy:gBqOTIcGhuZ06Y73F83byA7IQ6avsuWS@lucky.db.elephantsql.com/mlqlchcy'
 
 module.exports = {
-    ConnectionString: 'postgres://' + PgUser + ':' + PgPassword + '@' + PgHost + ':' + PgPort + '/' + PgDb
+    Pg
 };
