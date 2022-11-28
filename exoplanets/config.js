@@ -1,5 +1,5 @@
-const Pg = 'postgres://mlqlchcy:gBqOTIcGhuZ06Y73F83byA7IQ6avsuWS@lucky.db.elephantsql.com/mlqlchcy'
+const DATABASE_URL = 'postgres://mlqlchcy:gBqOTIcGhuZ06Y73F83byA7IQ6avsuWS@lucky.db.elephantsql.com/mlqlchcy'
 
 module.exports = {
-    Pg
+    DATABASE_URL
 };
